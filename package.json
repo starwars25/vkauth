@@ -1,0 +1,14 @@
+{
+  "name": "vk-auth-package",
+  "version": "1.0.0",
+  "description": "Authentication module for vk.com",
+  "main": "vkauth.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
