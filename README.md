@@ -12,7 +12,7 @@ Just run `npm install vkauth --save`.
 Example of using:
 
 ```javascript
-var vkauth = require('./vkauth');
+var vkauth = require('vkauth');
 vkauth.config.client_id = Number(process.env['VK_CLIENT_ID']);
 vkauth.config.app_secret = process.env['VK_APP_SECRET'];
 vkauth.config.host = 'localhost:3000';
