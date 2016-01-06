@@ -1,6 +1,6 @@
 {
   "name": "vkauth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Authentication module for vk.com",
   "keywords": ["vk.com", "vk", "vkontakte"],
   "main": "vkauth.js",
