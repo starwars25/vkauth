@@ -5,9 +5,7 @@ This module for [Express.js](http://expressjs.com/) will help you get server [VK
 
 ## Installation
 
-Clone repository, copy `vkauth.js` to your project.
-
-Soon the package will be avalable on **npm**.
+Just run `npm install vkauth --save`.
 
 ## Configuring
 
