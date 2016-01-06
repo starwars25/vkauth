@@ -54,4 +54,4 @@ vkauth.start(app, function(res, err, token) {
 * `token.user_id` - user id;
 * `token.expires_in` - expiration time in seconds.
 
-You can get *VK API URL* using method `vkauth.getUrl()`.
+You can get **VK API URL** based on `config` object using method `vkauth.getUrl()`.
