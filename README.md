@@ -13,7 +13,7 @@ Soon the package will be avalable on **npm**.
 
 Example of using:
 
-```
+```javascript
 var vkauth = require('./vkauth');
 vkauth.config.client_id = Number(process.env['VK_CLIENT_ID']);
 vkauth.config.app_secret = process.env['VK_APP_SECRET'];
@@ -36,7 +36,7 @@ You also can specify version of API using `v` property. Set it as `String`.
 
 Example:
 
-```
+```javascript
 vkauth.start(app, function(res, err, token) {
     if (err) {
         console.log(err);
