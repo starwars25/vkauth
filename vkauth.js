@@ -42,7 +42,8 @@ var config = {
     host: 'localhost:3000',
     route: '/token',
     scope: [],
-    display: 'page'
+    display: 'page',
+    v: '5.42'
 };
 var getUrl = function () {
     var client_id = config.client_id;
@@ -50,7 +51,7 @@ var getUrl = function () {
     var display = config.display;
     var scope = config.scope.join(',');
     var response_type = 'code';
-    var v = '5.42';
+    var v = config.v;
     return util.format("https://oauth.vk.com/authorize?client_id=%d&display=%s&redirect_uri=%s&scope=%s&response_type=%s&v=%s", client_id, display, redirect_uri, scope, response_type, v);
 };
 module.exports = {
