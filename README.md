@@ -1,4 +1,8 @@
 # VK Auth
+## Description
+
+This module for [Express.js](http://expressjs.com/) will help you get server [VK](http://vk.com) access token. After that you can use it to create your authentication system which uses **VK**. After gaining access token you can use it in other **VK API** modules. You can also easily get OAuth URL based on your settings with handy `getUrl()` method. 
+
 ## Installation
 
 Clone repository, copy `vkauth.js` to your project.
